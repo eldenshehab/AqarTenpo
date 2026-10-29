@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://aqar-tenpo.vercel.app/sitemap.xml
+
+# Disallow private/internal routes
+Disallow: /admin
+Disallow: /my-listings
+Disallow: /sell
+Disallow: /favorites
+# Public property pages are indexable after approval.
